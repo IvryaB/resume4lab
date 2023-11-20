@@ -57,6 +57,9 @@ ul {
   margin-top: 0;
   margin-bottom: 8px;
 }
+.my-info {
+  margin-bottom: 40px;
+}
 /* Sidebar */
 .sidebar {
   background: #e0ebfe;
@@ -117,6 +120,26 @@ ul {
   line-height: 24px;
 }
 /* Projects */
+.my-projects-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.my-project-item {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.my-projects-list {
+  padding-left: 16px;
+}
+
 .my-project-item-link {
   color: #005fff;
   font-size: 14px;
@@ -124,8 +147,18 @@ ul {
   line-height: 24px;
   text-decoration-line: underline;
 }
-/* education */
 
+.my-project-item-tech {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.my-projects-container {
+  margin-bottom: 40px;
+}
+/* Education */
 .education-title {
   color: #000;
   font-size: 22px;
@@ -134,7 +167,6 @@ ul {
   margin-top: 40;
   margin-bottom: 8px;
 }
-
 .place-of-study {
   color: #6d9bf5;
   font-size: 16px;
@@ -143,7 +175,6 @@ ul {
   margin-top: 0;
   margin-bottom: 8px;
 }
-
 .special-of-study {
   color: #000;
   font-size: 14px;
@@ -152,7 +183,6 @@ ul {
   margin-top: 0;
   margin-bottom: 8px;
 }
-
 .time-of-study {
   color: #a8a8a8;
   font-size: 12px;
@@ -160,3 +190,7 @@ ul {
   line-height: normal;
   margin-top: 0;
 }
+.sep {
+  color: #000;
+}
+
